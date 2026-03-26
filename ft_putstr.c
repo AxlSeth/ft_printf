@@ -6,7 +6,7 @@
 /*   By: seramaro <seramaro@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 15:11:20 by seramaro          #+#    #+#             */
-/*   Updated: 2026/03/25 21:51:17 by seramaro         ###   ########.fr       */
+/*   Updated: 2026/03/26 11:34:27 by seramaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ size_t	ft_putstr(char *str)
 {
 	size_t	count;
 
-	if(!str)
+	if(str == NULL)
 		return (0);
 	count = 0;
 	while (str[count])
